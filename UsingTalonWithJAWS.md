@@ -13,7 +13,7 @@ Narrator: US English Female
 
 # Using JAWS With Talon Voice
 
-...
+
 
 ## About This Tutorial
 
