@@ -13,14 +13,14 @@ Narrator: US English Female
 
 # Using JAWS With Talon Voice
 
-    {{|> US English Female}}
+    
         ## About This Tutorial
 
+{{|> US English Female}}
 > Welcome to the Using JAWS With Talon Voice tutorial!
 >
 > This tutorial contains the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
-
-
+> 
     ## Objectives
     
     {{|> US English Male}}
@@ -32,6 +32,7 @@ Narrator: US English Female
 
     ## Tips For Navigating This Tutorial
 
+{{|> US English Female}}
     - Activate the play button on each slide to hear the content narrated.
 - Navigate through the tutorial using the Next/Previous buttons that follow the content.
 - Use the Table Of Contents button located near the top of each page to jump to  sections in the tutorial, or to search for specific content.
