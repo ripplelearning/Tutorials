@@ -22,7 +22,6 @@ Narrator: US English Female
 
 {{|> US English Male}}
     **Objectives**
-
     In this tutorial, you will learn:
     
     - Voice commands for changing JAWS settings, such as speech rate, and volume.
