@@ -29,7 +29,7 @@ Narrator: US English Female
  +  Interacting with web pages and other HTML documents.
 
 <p>
- [Lets Go!](#2) </p>
+ [Lets Go!](#2)</p>
 
 ## Tips For Navigating This Tutorial
 
