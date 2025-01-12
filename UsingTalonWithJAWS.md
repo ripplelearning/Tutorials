@@ -28,8 +28,8 @@ Narrator: US English Female
  +  Reading and navigating text.
  +  Interacting with web pages and other HTML documents.
 
-    
-    [Lets Go!](#2)
+ 
+ [Lets Go!](#2)
 
 ## Tips For Navigating This Tutorial
 
@@ -38,7 +38,7 @@ Narrator: US English Female
 - Navigate through the tutorial using the Next/Previous buttons that follow the content.
 - Use the Table Of Contents button located near the top of each page to jump to  sections in the tutorial, or to search for specific content.
 
-> *Note: When the vertical bar (|) is used between two spoken commands, either command can be used to perform the task.
+> Note: When the vertical bar (|) is used between two spoken commands, either command can be used to perform the task.
   
 ## Reading commands
 
