@@ -18,7 +18,7 @@ Narrator: US English Female
 >
 > This tutorial contains the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
 
-    ### Objectives
+ ### Objectives
     
     {{|> US English Male}}
     In this tutorial, you will learn voice commands for:
