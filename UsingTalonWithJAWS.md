@@ -28,8 +28,8 @@ Narrator: US English Female
  +  Reading and navigating text.
  +  Interacting with web pages and other HTML documents.
 
- 
- [Lets Go!](#2)
+<p>
+ [Lets Go!](#2) </p>p>
 
 ## Tips For Navigating This Tutorial
 
