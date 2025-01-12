@@ -15,7 +15,7 @@ Narrator: US English Female
 
         ...
  
- --About This Tutorial
+ ## About This Tutorial
         
         {{|> US English Female}}
 > Welcome to the Using JAWS With Talon Voice tutorial!
