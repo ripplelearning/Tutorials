@@ -13,14 +13,12 @@ Narrator: US English Female
 
 # Using JAWS With Talon Voice
 
-
-
-## About This Tutorial
-
 {{|> US English Female}}
 > Welcome to the Using JAWS With Talon Voice tutorial!
 >
 > This tutorial contains the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
+
+[Let\s Go...](#2)
 
     ## Objectives
     
