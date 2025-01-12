@@ -21,7 +21,7 @@ Narrator: US English Female
  ## Objectives
     
     {{|> US English Male}}
-    In this tutorial, you will learn voice commands for:
+    > In this tutorial, you will learn voice commands for:
     
     - Changing JAWS settings, such as speech rate, and volume.
     - Getting the date, time, and cursor location.
