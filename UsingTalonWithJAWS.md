@@ -41,7 +41,7 @@ Narrator: US English Female
   
 ## Reading commands
 
-{{|> US English Female}}
+{{|> US English Male}}
 > Read below | start reading: Starts continuous reading from the cursor position.
 >
 > Next word: moves to and speaks the next word.
@@ -62,18 +62,18 @@ Narrator: US English Female
 
 ## Date and  time 
 
-{{|> US English Male}}
+{{|> US English Female}}
 > speak time | say time: Speak the time.
 >speak date | say date: Speak the date.
 
 ## Toggle input help (JAWS help system for learning commands)
 
-{{|> US English Female}}
+{{|> US English Male}}
 > toggle input help: Toggles keyboard help on/off.
 
 ## JAWS settings (reader and synthesizer settings)
 
-{{|> US English Male}}
+{{|> US English Female}}
 > open JAWS settings | JAWS settings center: Opens JAWS Settings for the current application.
 >
 > toggle speech | speech on demand: Toggles speech on demand on/off.
@@ -90,7 +90,7 @@ Narrator: US English Female
 
 ## Web Navigation
 
-{{|> US English Female}}
+{{|> US English Male}}
 > speak title | say title: Speaks the window title.
 >
 > go to search | go search bar | go to search bar: Envokes search by pressing Ctrl+e.
@@ -99,7 +99,7 @@ Narrator: US English Female
 
 ## Open element lists (JAWS-specific commands to list elements on the page)
 
-{{|> US English Male}}
+{{|> US English Female}}
 > links list | list links: Opens the list of links.
 >
 > headings list | list headings: Opens the list of headings.
@@ -108,7 +108,7 @@ Narrator: US English Female
 
 ## Reporting Location and Other Information
 
-{{|> US English Female}}
+{{|> US English Male}}
 > speak text formatting | speak formatting | say text formatting | say formatting: Speaks text formatting.
 >
 > speak selection | say selection: Speaks selected text.
@@ -121,7 +121,7 @@ Narrator: US English Female
 
 ## Navigation commands for table, list, graphic, link, and form elements
 
-{{|>US English Male}}
+{{|>US English Female}}
 > Next table: Moves to the next table.
 >
 > Previous table: Moves to the previous table.
@@ -180,7 +180,7 @@ Narrator: US English Female
 
 ## Activate element
 
-{{|> US English Female}}
+{{|> US English Male}}
 > activate | activate that press enter | hit enter: Activates the current element.
 
 ## Toggle selection for checkboxes, combo boxes, and radio buttons
