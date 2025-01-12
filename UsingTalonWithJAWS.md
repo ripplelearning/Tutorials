@@ -16,10 +16,36 @@ Narrator: US English Female
 # Using JAWS With Talon Voice
 
     {{|> US English Female}}
-> Use this tutorial to learn the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
+<section>
+
+    ## About This Tutorial
+
+> Welcome to the Using JAWS With Talon Voice tutorial!
 >
-> Note: When the vertical bar (|) is used between two spoken commands, either command can be used to perform the task.
+> Use this tutorial to learn the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
+</section>
+<section>
+    ## Objectives
+
+    In this tutorial, you will learn:
     
+    + Voice commands for changing JAWS settings, such as speech rate, and volume.
+    + Commands for getting the date, time, and cursor location.
+    + Voice commands for reading and navigating text.
+    + Commands for interacting with web pages and other HTML documents.
+</section>
+<section>
+
+    ## Tips For Navigating This Tutorial
+
+    - Activate the play button on each slide to hear the content narrated.
+- Navigate through the tutorial using the Next/Previous buttons that follow the content.
+- Use the Table Of Contents button located near the top of each page to jump to  sections in the tutorial, or to search for specific content.
+
+> *Note: When the vertical bar (|) is used between two spoken commands, either command can be used to perform the task.
+
+</section>
+  
 ## Reading commands
 
 {{|> US English Female}}
