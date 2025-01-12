@@ -1,7 +1,7 @@
 <!--
 author: Tristen B.
-version: 1.0
-Date: Jan 10, 2025
+version: 1.1
+Date: Jan 12, 2025
 title: Using JAWS With Talon Voice
 Language: en
 
@@ -18,9 +18,9 @@ Narrator: US English Female
 >
 > This tutorial contains the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
 
-[Let\s Go...](#2)
+[Lets Go!](#2)
 
-    ## Objectives
+    ### Objectives
     
     {{|> US English Male}}
     In this tutorial, you will learn voice commands for:
@@ -29,7 +29,7 @@ Narrator: US English Female
 - Reading and navigating text.
     - Interacting with web pages and other HTML documents.
 
-    ## Tips For Navigating This Tutorial
+#    ## Tips For Navigating This Tutorial
 
 {{|> US English Female}}
     - Activate the play button on each slide to hear the content narrated.
