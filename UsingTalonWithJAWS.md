@@ -16,6 +16,7 @@ Narrator: US English Female
 # Using JAWS With Talon Voice
 
     {{|> US English Female}}
+    
 <section>
 
     ## About This Tutorial
@@ -29,10 +30,10 @@ Narrator: US English Female
 
     In this tutorial, you will learn:
     
-    + Voice commands for changing JAWS settings, such as speech rate, and volume.
-    + Commands for getting the date, time, and cursor location.
-    + Voice commands for reading and navigating text.
-    + Commands for interacting with web pages and other HTML documents.
+    * Voice commands for changing JAWS settings, such as speech rate, and volume.
+    * Commands for getting the date, time, and cursor location.
+    *+ Voice commands for reading and navigating text.
+    *+ Commands for interacting with web pages and other HTML documents.
 </section>
 <section>
 
