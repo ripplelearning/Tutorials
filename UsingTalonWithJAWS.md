@@ -22,7 +22,7 @@ Narrator: US English Female
     
     {{|> US English Male}}
     > In this tutorial, you will learn voice commands for:
-    
+>    
     - Changing JAWS settings, such as speech rate, and volume.
     - Getting the date, time, and cursor location.
     - Reading and navigating text.
