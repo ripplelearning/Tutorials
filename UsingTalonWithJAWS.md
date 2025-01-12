@@ -185,7 +185,7 @@ Narrator: US English Female
 
 ## Toggle selection for checkboxes, combo boxes, and radio buttons
 
-{{|> US English Male}}
+{{|> US English Female}}
 > Next checkbox: Move to the next checkbox.
 >
 > Previous checkbox: Moves to the previous checkbox.
@@ -200,17 +200,17 @@ Narrator: US English Female
 
 ## Pass through next command (used to send the next key press directly to the system)
 
-{{|> US English Female}}
+{{|> US English Male}}
 > pass through next | pass through: Passes the next keystroke directly to the system.
 
-### Restart JAWS
+## Restart JAWS
 
-{{|> US English Male}}
+{{|> US English Female}}
 > restart reader | restart JAWS:  Restarts the JAWS application.
 
 ## End Of tutorial
 
-{{|> US English Female}}
+{{|> US English Male}}
 > We hope that you found the information in this tutorial helpful.
 > Enjoy using Talon Voice with your JAWS For Windows screen reader
 > !
