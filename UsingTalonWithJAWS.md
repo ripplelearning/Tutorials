@@ -1,46 +1,119 @@
 <!--
 author: Tristen B.
-version: 1.1
-Date: Jan 12, 2025
-title: Using JAWS With Talon Voice
-Language: en
+version: 1.2
+date: Jan 13, 2025
+language: en
 
-Comment: A guide to using Talon Voice with JAWS for Windows.
+comment: A guide to using Talon Voice with JAWS for Windows.
 
-Narrator: US English Female
+narrator: US English Female
+
+@playback.auto
+<script>
+// Get all <main> elements on the page
+const mainTags = document.querySelectorAll('main');
+
+// Check which one is "active" (visible or meets some criteria)
+const activeMain = Array.from(mainTags).find(main => {
+  // Check if the element is visible
+  const style = window.getComputedStyle(main);
+  return style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0';
+});
+
+// Log the active <main> or a message if none is active
+if (activeMain) {
+  console.log('Active <main>:', activeMain);
+
+  setTimeout(() => {
+    window.LIA.playback({reply: false,
+    track: [],
+    service: "tts",
+    message: {
+        cmd: "playback",
+        param: {
+            voice: "US English Female",
+            lang: "en",
+            text: activeMain}
+    }})
+  }, 1000)
+} else {
+  console.log('No active <main> tag found.');
+}
+
+"LIA: stop"
+</script>
+@end
+
+
+@playback.button
+<script input="submit" default="play" modify="false" aria-label="play entire site" aria-role="button">
+const mainTags = document.querySelectorAll('main');
+
+const activeMain = Array.from(mainTags).find(main => {
+  const style = window.getComputedStyle(main);
+  return style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0';
+});
+
+if (activeMain) {
+  console.log('Active <main>:', activeMain);
+
+  setTimeout(() => {
+    window.LIA.playback({reply: false,
+    track: [],
+    service: "tts",
+    message: {
+        cmd: "playback",
+        param: {
+            voice: "US English Female",
+            lang: "en",
+            text: activeMain}
+    }})
+  }, 1000)
+} else {
+  console.log('No active <main> tag found.');
+}
+
+"play"
+</script>
+@end
 
 -->
 
 # Using JAWS With Talon Voice
 
-{{|> US English Female}}
+@playback.auto
+
+    {{|>}}
 > Welcome to the Using JAWS With Talon Voice tutorial!
 >
 > This tutorial contains the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
 
- ## Objectives
-    
+Objectives
+==========
+
     {{|> US English Male}}
-    > In this tutorial, you will learn voice commands for:
->    
- + Changing JAWS settings, such as speech rate, and volume.
- +  Getting the date, time, and cursor location.
- +  Reading and navigating text.
- +  Interacting with web pages and other HTML documents.
+> In this tutorial, you will learn voice commands for:
 
->
- [Lets Go!](#2)
++ Changing JAWS settings, such as speech rate, and volume.
++  Getting the date, time, and cursor location.
++  Reading and navigating text.
++  Interacting with web pages and other HTML documents.
 
-## Tips For Navigating This Tutorial
+[Lets Go!](#2)
 
-{{|> US English Female}}
-    - Activate the play button on each slide to hear the content narrated.
+Tips For Navigating This Tutorial
+---------------------------------
+
+    {{|>}}
+- Activate the play button on each slide to hear the content narrated.
 - Navigate through the tutorial using the Next/Previous buttons that follow the content.
 - Use the Table Of Contents button located near the top of each page to jump to  sections in the tutorial, or to search for specific content.
 
 > Note: When the vertical bar (|) is used between two spoken commands, either command can be used to perform the task.
-  
+
 ## Reading commands
+
+@playback.button
 
 {{|> US English Male}}
 > Read below | start reading: Starts continuous reading from the cursor position.
@@ -55,24 +128,26 @@ Narrator: US English Female
 >
 > previous line: Moves to and speaks the previous line.
 >
->next paragraph: Moves to and speaks the next paragraph.
+> next paragraph: Moves to and speaks the next paragraph.
 >
->previous paragraph: Moves to and speaks the previous paragraph.
+> previous paragraph: Moves to and speaks the previous paragraph.
 >
 > Be quiet | stop speech: Stops reading.
 
-## Date and  time 
+### Date and time 
+
+@playback.button
 
 {{|> US English Female}}
 > speak time | say time: Speak the time.
 >speak date | say date: Speak the date.
 
-## Toggle input help (JAWS help system for learning commands)
+### Toggle input help (JAWS help system for learning commands)
 
 {{|> US English Male}}
 > toggle input help: Toggles keyboard help on/off.
 
-## JAWS settings (reader and synthesizer settings)
+### JAWS settings (reader and synthesizer settings)
 
 {{|> US English Female}}
 > open JAWS settings | JAWS settings center: Opens JAWS Settings for the current application.
@@ -89,7 +164,7 @@ Narrator: US English Female
 >
 > decrease jaws volume | jaws volume down| speak softer: Decreases the volume of JAWS.
 
-## Web Navigation
+### Web Navigation
 
 {{|> US English Male}}
 > speak title | say title: Speaks the window title.
@@ -98,7 +173,7 @@ Narrator: US English Female
 >
 > go to address bar | go address bar: Moves focus to the address bar in web browsers.
 
-## Open element lists (JAWS-specific commands to list elements on the page)
+### Open element lists (JAWS-specific commands to list elements on the page)
 
 {{|> US English Female}}
 > links list | list links: Opens the list of links.
@@ -107,7 +182,7 @@ Narrator: US English Female
 >
 > forms list | list forms: Opens the list of form elements.
 
-## Reporting Location and Other Information
+### Reporting Location and Other Information
 
 {{|> US English Male}}
 > speak text formatting | speak formatting | say text formatting | say formatting: Speaks text formatting.
@@ -120,7 +195,7 @@ Narrator: US English Female
 >
 > speak focus | say focus | speak item | say item: Speaks the current item.
 
-## Navigation commands for table, list, graphic, link, and form elements
+### Navigation commands for table, list, graphic, link, and form elements
 
 {{|>US English Female}}
 > Next table: Moves to the next table.
@@ -179,12 +254,12 @@ Narrator: US English Female
 >
 > Previous landmark | previous region: Moves to the previous landmark.
 
-## Activate element
+### Activate element
 
 {{|> US English Male}}
 > activate | activate that press enter | hit enter: Activates the current element.
 
-## Toggle selection for checkboxes, combo boxes, and radio buttons
+### Toggle selection for checkboxes, combo boxes, and radio buttons
 
 {{|> US English Female}}
 > Next checkbox: Move to the next checkbox.
@@ -199,12 +274,12 @@ Narrator: US English Female
 >
 > Open the box: Expands combo boxes.
 
-## Pass through next command (used to send the next key press directly to the system)
+### Pass through next command (used to send the next key press directly to the system)
 
 {{|> US English Male}}
 > pass through next | pass through: Passes the next keystroke directly to the system.
 
-## Restart JAWS
+### Restart JAWS
 
 {{|> US English Female}}
 > restart reader | restart JAWS:  Restarts the JAWS application.
