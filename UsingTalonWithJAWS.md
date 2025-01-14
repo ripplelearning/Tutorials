@@ -81,7 +81,7 @@ if (activeMain) {
 
 # Using JAWS With Talon Voice
 
-    {{|>}}
+    @playback.auto
 > Welcome to the Using JAWS With Talon Voice tutorial!
 >
 > This tutorial contains the spoken commands for operating Talon by voice using the JAWS for Windows screen reader.
@@ -89,7 +89,6 @@ if (activeMain) {
 Objectives
 ==========
 
-    {{|> US English Male}}
 > In this tutorial, you will learn voice commands for:
 
 + Changing JAWS settings, such as speech rate, and volume.
@@ -102,7 +101,6 @@ Objectives
 Tips For Navigating This Tutorial
 ---------------------------------
 
-    {{|>}}
 - Activate the play button on each slide to hear the content narrated.
 - Navigate through the tutorial using the Next/Previous buttons that follow the content.
 - Use the Table Of Contents button located near the top of each page to jump to  sections in the tutorial, or to search for specific content.
@@ -110,8 +108,6 @@ Tips For Navigating This Tutorial
 > Note: When the vertical bar (|) is used between two spoken commands, either command can be used to perform the task.
 
 ## Reading commands
-
-@playback.button
 
 {{|> US English Male}}
 > Read below | start reading: Starts continuous reading from the cursor position.
@@ -133,8 +129,6 @@ Tips For Navigating This Tutorial
 > Be quiet | stop speech: Stops reading.
 
 ### Date and time 
-
-@playback.auto
 
 {{|> US English Female}}
 > speak time | say time: Speak the time.
