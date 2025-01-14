@@ -81,8 +81,6 @@ if (activeMain) {
 
 # Using JAWS With Talon Voice
 
-{{|> US English Male}}
-
     {{|>}}
 > Welcome to the Using JAWS With Talon Voice tutorial!
 >
@@ -113,7 +111,6 @@ Tips For Navigating This Tutorial
 
 ## Reading commands
 
-@playback.auto
 @playback.button
 
 {{|> US English Male}}
@@ -137,7 +134,7 @@ Tips For Navigating This Tutorial
 
 ### Date and time 
 
-@playback.button
+@playback.auto
 
 {{|> US English Female}}
 > speak time | say time: Speak the time.
