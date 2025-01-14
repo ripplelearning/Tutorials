@@ -81,7 +81,7 @@ if (activeMain) {
 
 # Using JAWS With Talon Voice
 
-@playback.auto
+{{|> US English Male}}
 
     {{|>}}
 > Welcome to the Using JAWS With Talon Voice tutorial!
@@ -113,6 +113,7 @@ Tips For Navigating This Tutorial
 
 ## Reading commands
 
+@playback.auto
 @playback.button
 
 {{|> US English Male}}
