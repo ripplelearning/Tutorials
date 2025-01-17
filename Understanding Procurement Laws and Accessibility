@@ -1,0 +1,120 @@
+<!--
+author: Tristen B.
+version: 1.0
+Date: January 15, 2025
+title: Understanding Procurement Laws and Accessibility
+Language: en
+
+Comment: This course teaches the basics of procurement laws and their relevance in accessibility.
+
+import:   https://raw.githubusercontent.com/liaTemplates/vtk/master/README.md
+
+Narrator: US English Male
+
+-->
+
+# Understanding Procurement Laws and Accessibility
+
+Learning Objectives:
+==========
+
+By the end of this tutorial, learners will be able to:
+
+1. Define procurement laws and how they ensure accessibility.
+2. Identify key components of procurement laws, focusing on accessibility.
+3. Understand the role of VPATs in procurement processes.
+4. Learn the steps to validate a vendor's product for accessibility compliance.
+5. Recognize key principles of procurement laws and their impact on accessibility.
+6. Understand the relationship between procurement laws and disability rights frameworks like the ADA.
+
+## Introduction to Procurement Laws and Accessibility
+
+**What is Procurement Law?**
+
+Procurement laws govern how organizations acquire goods and services. These laws ensure that products and services purchased are accessible to people with disabilities. For example, Section 508 requires that U.S. federal agencies acquire accessible electronic products. 
+
+While vendors aren’t legally required to create accessible products, agencies must only purchase items that meet accessibility standards or are the most accessible option available.
+
+!?[The Accessible Canada Act and Government Procurement](https://www.youtube.com/watch?v=iZaUMrn-H6g&t=22s)
+
+## Key Components of Procurement Laws
+
+The four standard  components of procurement laws include:
+
+1. General Provisions: These outline the purpose, scope, and definitions related to procurement, including accessibility terms like "universal design."
+2. Procurement Principles: Transparency, fair competition, and value for money are key principles. Accessibility is incorporated to ensure equal opportunity for vendors and users with disabilities.
+3. Procurement Methods: Includes competitive bidding and e-procurement systems, which must be accessible.
+4. Eligibility and Qualification Criteria: Vendors must meet accessibility standards to participate.
+
+## The Role of VPATs in Procurement Laws
+
+**What are VPATs?**
+
+VPATs (Voluntary Product Accessibility Templates) help organizations assess how accessible a product is. They provide documentation that shows whether a product complies with accessibility standards like Section 508 or WCAG.
+
+How VPATs Support Procurement Laws:
+
+* Proving Compliance: VPATs demonstrate that products meet accessibility standards.
+* Supporting Decisions: Help procurement teams choose accessible products.
+* Holding Vendors Accountable: Vendors are motivated to ensure accessibility when they know their VPAT will be evaluated.
+* Making Accessibility Part of the Process: VPATs standardize accessibility documentation.
+
+## Validating Vendor Products for Accessibility Compliance
+
+**Steps to Validate Accessibility**
+
+1. Request and Review Documentation: Ask for a VPAT or ACR (Accessibility Conformance Report) to see how the product meets accessibility standards.
+2. Ask for a Demo: Ensure the product works with assistive technologies like screen readers.
+3. Conduct Internal Testing: Test the product with accessibility tools.
+4. Engage Experts: Consult accessibility experts for a thorough review.
+5. Perform Gap Analysis: Identify accessibility gaps and work with the vendor to address them.
+6. Negotiate Accessibility in Contracts: Include clauses that hold vendors accountable for accessibility.
+
+## Key Principles of Procurement Laws
+
+Procurement laws follow principles that promote:
+
+* Transparency: Processes must be clear and accessible to all.
+* Fair Competition: Ensure equal opportunity, including for vendors that meet accessibility standards.
+* Value for Money: Consider both cost and the long-term benefits of accessibility.
+* Accountability and Ethics: Vendors must maintain accessibility, and procurement officials must adhere to ethical standards.
+* Efficiency: Streamline processes to avoid delays, while ensuring accessibility is prioritized.
+
+## The Relationship Between Procurement Laws and Disability Rights Laws
+
+Procurement laws and disability rights laws (like the ADA) work together:
+
+* Shared Goals: Both aim to ensure that products and services are accessible to people with disabilities.
+* Implementation: Procurement laws help organizations meet ADA standards by requiring accessible products.
+* Universal Design: These laws promote designing products that work for everyone, not just those with disabilities.
+* Accountability: Procurement laws help enforce disability rights by holding vendors accountable for accessibility.
+
+## Knowledge Check
+
+Take this short quiz to check your understanding of the content covered in this lesson. Your scores are not graded; this is just to help you gauge how well you learned the material. Feel free to revisit sections of the lesson that you want to review, and take the quiz as many times as you want.
+
+What is the primary purpose of a VPAT in procurement?
+
+-[( )] To evaluate a product’s cost.
+? Not quite.
+
+-[(X)] To prove a product’s accessibility compliance.
+? Right on! The primary purpose of a VPAT is to prove that the product is compliant with accessibility guidelines.
+
+-[( )] To test a product's market demand.
+? No, sorry, that is not the purpose of the VPAT.
+
+-[( )] To get the best deal on a product.
+? Incorrect, while a purchaser can use more than one VPAT to compare two products, price is not the primary purpose.
+
+True/False: Procurement laws are only relevant for government acquisitions.
+
+-[( )] True
+? Procurement laws are relevant not only for government acquisitions but also for private sector transactions. 
+
+-[(X)] False
+? While government procurement is often subject to specific statutory and regulatory frameworks (e.g., FAR in the U.S.), private sector entities also follow procurement laws and best practices to ensure compliance with contractual obligations, fairness, and ethical standards in sourcing goods and services.
+
+## Conclusion
+
+Procurement laws are crucial for ensuring that products and services are accessible to everyone. By using tools like VPATs and following proper validation steps, organizations can make sure they are meeting accessibility standards. Procurement laws also promote fairness, transparency, and accountability while aligning with disability rights frameworks like the ADA.
