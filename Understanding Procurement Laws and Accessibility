@@ -1,15 +1,82 @@
 <!--
 author: Tristen B.
-version: 1.0
-Date: January 15, 2025
+version: 1.1
+Date: January 18, 2025
 title: Understanding Procurement Laws and Accessibility
 Language: en
 
 Comment: This course teaches the basics of procurement laws and their relevance in accessibility.
 
-import:   https://raw.githubusercontent.com/liaTemplates/vtk/master/README.md
+narrator: US English Female
 
-Narrator: US English Male
+@playback.auto
+<script>
+// Get all <main> elements on the page
+const mainTags = document.querySelectorAll('main');
+
+// Check which one is "active" (visible or meets some criteria)
+const activeMain = Array.from(mainTags).find(main => {
+  // Check if the element is visible
+  const style = window.getComputedStyle(main);
+  return style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0';
+});
+
+// Log the active <main> or a message if none is active
+if (activeMain) {
+  console.log('Active <main>:', activeMain);
+
+  setTimeout(() => {
+    window.LIA.playback({reply: false,
+    track: [],
+    service: "tts",
+    message: {
+        cmd: "playback",
+        param: {
+            voice: "US English Female",
+            lang: "en",
+            text: activeMain}
+    }})
+  }, 1000)
+} else {
+  console.log('No active <main> tag found.');
+}
+
+"LIA: stop"
+</script>
+@end
+
+
+@playback.button
+<script input="submit" default="play" modify="false" aria-label="play entire site" aria-role="button">
+const mainTags = document.querySelectorAll('main');
+
+const activeMain = Array.from(mainTags).find(main => {
+  const style = window.getComputedStyle(main);
+  return style.display !== 'none' && style.visibility !== 'hidden' && style.opacity !== '0';
+});
+
+if (activeMain) {
+  console.log('Active <main>:', activeMain);
+
+  setTimeout(() => {
+    window.LIA.playback({reply: false,
+    track: [],
+    service: "tts",
+    message: {
+        cmd: "playback",
+        param: {
+            voice: "US English Female",
+            lang: "en",
+            text: activeMain}
+    }})
+  }, 1000)
+} else {
+  console.log('No active <main> tag found.');
+}
+
+"play"
+</script>
+@end
 
 -->
 
@@ -52,14 +119,17 @@ The four standard  components of procurement laws include:
 
 VPATs (Voluntary Product Accessibility Templates) help organizations assess how accessible a product is. They provide documentation that shows whether a product complies with accessibility standards like Section 508 or WCAG.
 
-How VPATs Support Procurement Laws:
+How do VPATs Support Procurement Laws?
 
-* Proving Compliance: VPATs demonstrate that products meet accessibility standards.
-* Supporting Decisions: Help procurement teams choose accessible products.
-* Holding Vendors Accountable: Vendors are motivated to ensure accessibility when they know their VPAT will be evaluated.
-* Making Accessibility Part of the Process: VPATs standardize accessibility documentation.
+1. Providing proof of Compliance: VPATs demonstrate that products meet accessibility standards.
 
-## Validating Vendor Products for Accessibility Compliance
+2. Supporting Decisions: Helping procurement teams choose accessible products.
+
+3. Holding Vendors Accountable: Vendors are motivated to ensure accessibility when they know their VPAT will be evaluated.
+
+4. Making Accessibility Part of the Process: VPATs standardize accessibility documentation.
+
+## Validating Vendor Products for Accessibility Compliance__}
 
 **Steps to Validate Accessibility**
 
@@ -72,6 +142,7 @@ How VPATs Support Procurement Laws:
 
 ## Key Principles of Procurement Laws
 
+?[](19eed3b069a060b5961271d388962f5c97176328.mp3)
 Procurement laws follow principles that promote:
 
 * Transparency: Processes must be clear and accessible to all.
@@ -82,16 +153,19 @@ Procurement laws follow principles that promote:
 
 ## The Relationship Between Procurement Laws and Disability Rights Laws
 
-Procurement laws and disability rights laws (like the ADA) work together:
+{0-5}{__Procurement laws and disability rights laws (like the ADA) work together through:__}
 
-* Shared Goals: Both aim to ensure that products and services are accessible to people with disabilities.
-* Implementation: Procurement laws help organizations meet ADA standards by requiring accessible products.
-* Universal Design: These laws promote designing products that work for everyone, not just those with disabilities.
-* Accountability: Procurement laws help enforce disability rights by holding vendors accountable for accessibility.
+{1}{__Shared Goals: Both aim to ensure that products and services are accessible to people with disabilities.__}
+
+{2}{__Implementation: Procurement laws help organizations meet ADA standards by requiring accessible products.__}
+
+{3}{__Universal Design: These laws promote designing products that work for everyone, not just those with disabilities.__}
+
+{4}{__Accountability: Procurement laws help enforce disability rights by holding vendors accountable for accessibility.__}
 
 ## Knowledge Check
 
-Take this short quiz to check your understanding of the content covered in this lesson. Your scores are not graded; this is just to help you gauge how well you learned the material. Feel free to revisit sections of the lesson that you want to review, and take the quiz as many times as you want.
+{0}{__Take this short quiz to check your understanding of the content covered in this lesson. Your scores are not graded; this is just to help you gauge how well you learned the material. Feel free to revisit sections of the lesson that you want to review, and take the quiz as many times as you want.__}
 
 What is the primary purpose of a VPAT in procurement?
 
